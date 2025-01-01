@@ -9,6 +9,12 @@ html,body{
   align-items: center;
 }
 
+h1 {
+  background-image: conic-gradient(from 25deg , rgb(52, 52, 186),rgb(255, 81, 0), rgb(83, 26, 26));
+  background-clip: text;
+  color: transparent;
+}
+
 .container {
   position: relative;
   display: flex;
@@ -83,7 +89,7 @@ html,body{
 }
 
 .glow {
-  background: linear-gradient(135deg, #14ffe1, #ffeb32, #ff00e1 );
+  background: linear-gradient(230deg, #03ffdd, #ffeb32, #ff0000 );
   animation: glow 5s linear infinite;
 }
 @keyframes glow {
