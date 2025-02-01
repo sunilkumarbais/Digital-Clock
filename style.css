@@ -7,6 +7,7 @@ html,body{
   overflow: hidden;
   justify-content: center;
   align-items: center;
+  transition: background-color 1s;
 }
 
 h1 {
@@ -79,18 +80,20 @@ h1 {
 }
 
 .dark-mode {
-  background-color: #000;;
+  background-color: #000;
+  transition:all 1s ;
 }
 
 .hadding-color {
   color: white;
   text-shadow: 3px 3px 3px #ff8914;
   box-shadow:0px 3px 3px #ff8914; ;
+  transition:all 1s ;
 }
 
 .glow {
-  background: linear-gradient(230deg, #03ffdd, #ffeb32, #ff0000 );
-  animation: glow 5s linear infinite;
+  background: linear-gradient(230deg, #20675ece, #d7c316ae, #81101058 );
+  animation: glow 10s linear infinite;
 }
 @keyframes glow {
   100%{
